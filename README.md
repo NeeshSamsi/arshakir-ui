@@ -5,3 +5,10 @@ Designs from AR Shakir's [Freebie Designs](https://arshakir.com/for-followers), 
 ### Stack
 
 [Next.js](https://nextjs.org) and [Tailwind](https://tailwindcss.com) from their [Official Setup Docs](https://tailwindcss.com/docs/guides/nextjs)
+
+```zsh
+mkdir arshakir-ui
+cd arshakir-ui
+
+npx create-next-app -e with-tailwindcss ./
+```
