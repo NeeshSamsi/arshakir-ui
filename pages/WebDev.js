@@ -3,6 +3,7 @@ import Link from "next/link";
 
 // COMPONENTS
 import CTA from "../components/webdev/CTA";
+import Semicircle from "../components/webdev/Semicircle";
 
 export default function WebDev() {
   return (
@@ -32,6 +33,8 @@ export default function WebDev() {
 
           <CTA text="Sign up" />
         </div>
+
+        <Semicircle className="absolute top-0 right-0" w="8rem" h="8rem" />
       </nav>
       <main></main>
       <footer></footer>
