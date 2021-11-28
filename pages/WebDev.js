@@ -34,7 +34,9 @@ export default function WebDev() {
           <CTA text="Sign up" />
         </div>
 
-        <Semicircle className="absolute top-0 right-0" w="8rem" h="8rem" />
+        <div className="w-60 -rotate-45 absolute -top-16 -right-28">
+          <Semicircle />
+        </div>
       </nav>
       <main></main>
       <footer></footer>
