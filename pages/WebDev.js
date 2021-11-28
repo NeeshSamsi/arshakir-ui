@@ -8,7 +8,11 @@ export default function WebDev() {
   return (
     <>
       <nav>
-        <h1>Web.Dev</h1>
+        <Link href="/">
+          <a>
+            <h1>Web.Dev</h1>
+          </a>
+        </Link>
         <div>
           <Link href="/">
             <a>Home</a>
