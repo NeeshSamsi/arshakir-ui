@@ -38,7 +38,22 @@ export default function WebDev() {
           <Semicircle />
         </div>
       </nav>
-      <main></main>
+
+      <main className="pt-40">
+        <h1 className="font-inter font-extrabold text-web.dev-dark-primary text-center text-7xl">
+          We Develop <span className="text-web.dev-accent">Shopify</span> sites
+        </h1>
+
+        <p>
+          Slingback fabric heels. Thin wraparound ankle strap. Squared heel and toe. Pointed toe. Padded insole with
+          geometrical design.
+        </p>
+
+        <div>
+          <CTA text="Contact Us" />
+          <CTA text="Watch Video" icon="RightArrow" />
+        </div>
+      </main>
       <footer></footer>
     </>
   );
