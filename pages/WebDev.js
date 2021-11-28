@@ -7,13 +7,13 @@ import CTA from "../components/webdev/CTA";
 export default function WebDev() {
   return (
     <>
-      <nav>
+      <nav className="py-12 px-32 flex justify-between items-center text-web.dev-dark-primary">
         <Link href="/">
           <a>
-            <h1>Web.Dev</h1>
+            <h1 className="font-gilroy font-bold text-lg">Web.Dev</h1>
           </a>
         </Link>
-        <div>
+        <div className="font-gilroy font-medium text-lg flex justify-between items-center space-x-14">
           <Link href="/">
             <a>Home</a>
           </Link>
