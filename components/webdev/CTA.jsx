@@ -16,7 +16,6 @@ const BTN = ({ text, outline }) =>
 
 const Link = ({ text, icon, theme }) => {
   const color = theme.accent ? "accent" : "dark-secondary";
-  console.log("Link ", color);
 
   return icon ? (
     <div className="flex items-center space-x-3 rounded-md">
