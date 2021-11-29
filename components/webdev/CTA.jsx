@@ -1,4 +1,4 @@
-import RightTriangle from "./RightTriangle";
+import RightTriangle from "./icons/RightTriangle";
 
 const BTN = ({ text, outline }) =>
   outline ? (

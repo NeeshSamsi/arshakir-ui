@@ -4,7 +4,7 @@ import Image from "next/image";
 
 // COMPONENTS
 import CTA from "../components/webdev/CTA";
-import Semicircle from "../components/webdev/Semicircle";
+import Semicircle from "../components/webdev/icons/Semicircle";
 import HeroRight from "../assets/webdev/img/hero-right.jpg";
 import HeroLeft from "../assets/webdev/img/hero-left.jpg";
 
