@@ -1,6 +1,4 @@
-import React from "react";
-
-const Semicircle = ({ w, h }) => {
+const Semicircle = () => {
   return (
     <svg width="100%" height="100%" viewBox="0 0 238 119" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
