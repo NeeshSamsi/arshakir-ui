@@ -17,6 +17,7 @@ module.exports = {
             secondary: "#514040",
             "testimonial-primary": "#32435C",
             "testimonial-secondary": "#6A635B",
+            footer: "#1C1C1D",
           },
           light: "#F2F2F2",
           accent: "#49AD09",
