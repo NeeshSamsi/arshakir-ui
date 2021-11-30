@@ -19,7 +19,7 @@ const Link = ({ text, icon, theme }) => {
 
   return icon ? (
     <div className="flex items-center space-x-3 rounded-md">
-      <a href="/" className={`py-4 font-medium text-lg text-web.dev-${color} ${theme.underline ? "underline" : ""}`}>
+      <a href="/" className={`font-medium text-lg text-web.dev-${color} ${theme.underline ? "underline" : ""}`}>
         {text}
       </a>
       <div className="w-2">
@@ -27,7 +27,7 @@ const Link = ({ text, icon, theme }) => {
       </div>
     </div>
   ) : (
-    <a href="/" className={`py-4 font-medium text-lg text-web.dev-${color} ${theme.underline ? "underline" : ""}`}>
+    <a href="/" className={`font-medium text-lg text-web.dev-${color} ${theme.underline ? "underline" : ""}`}>
       {text}
     </a>
   );
