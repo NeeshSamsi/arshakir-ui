@@ -4,14 +4,23 @@ import Image from "next/image";
 
 // COMPONENTS
 import CTA from "../components/webdev/CTA";
+// SVG
 import Semicircle from "../components/webdev/icons/Semicircle";
+import Squiggle from "../components/webdev/icons/Squiggle";
+// IMG
 import HeroRight from "../assets/webdev/img/hero-right.jpg";
 import HeroLeft from "../assets/webdev/img/hero-left.jpg";
+// Logo
 import Chase from "../assets/webdev/img/logos/CHASE.jpg";
 import Asana from "../assets/webdev/img/logos/asana.jpg";
 import Google from "../assets/webdev/img/logos/Google.jpg";
 import BuzzFeed from "../assets/webdev/img/logos/BuzzFeed.jpg";
 import Walmart from "../assets/webdev/img/logos/Walmart.jpg";
+import Webflow from "../assets/webdev/img/logos/webflow.jpg";
+import Shopify from "../assets/webdev/img/logos/shopify.jpg";
+import Figma from "../assets/webdev/img/logos/figma.jpg";
+import Php from "../assets/webdev/img/logos/php.jpg";
+import SectionTitle from "../components/webdev/SectionTitle";
 
 export default function WebDev() {
   return (
@@ -43,7 +52,7 @@ export default function WebDev() {
         </div>
 
         <div className="w-60 -rotate-45 absolute -top-16 -right-28">
-          <Semicircle />
+          <Semicircle color="accent" />
         </div>
       </nav>
 
@@ -71,7 +80,7 @@ export default function WebDev() {
         </div>
       </main>
 
-      <section className="pt-40 pb-52 w-4/5 mx-auto flex justify-between items-center">
+      <section className="py-40 w-4/5 mx-auto flex justify-between items-center  relative">
         <div className="w-32 h-full">
           <Image src={Chase} alt="CHASE Logo" className="w-full h-full object-cover" />
         </div>
@@ -86,6 +95,75 @@ export default function WebDev() {
         </div>
         <div className="w-32 h-full">
           <Image src={Walmart} alt="BuzzFeed Logo" className="w-full h-full object-cover" />
+        </div>
+
+        <div className="absolute w-64 top-20 -left-40">
+          <Squiggle color="accent" />
+        </div>
+      </section>
+
+      <section className="font-gilroy font-medium text-lg flex flex-col justify-between items-center space-y-20 relative">
+        <SectionTitle title="Our Specialization" subtitle="What we Do?" />
+
+        <div className="grid grid-cols-2 gap-10">
+          <div className="px-7 py-10 flex flex-col justify-between space-y-7 max-w-sm shadow-2xl">
+            <div className="flex space-x-4">
+              <div className="w-7">
+                <Image src={Webflow} className="w-full h-full object-cover" />
+              </div>
+              <h6 className="font-semibold text-2xl">Webflow Development</h6>
+            </div>
+            <p>
+              Really boy law country she unable her sister. Feet you off its like six. Among sex are leave now built
+              law. In built table in an rapid blush. Merits behind on afraid or warmly.
+            </p>
+            <CTA text="Read More" underline accent />
+          </div>
+          <div className="px-7 py-10 flex flex-col justify-between space-y-7 max-w-sm">
+            <div className="flex space-x-4">
+              <div className="w-7">
+                <Image src={Shopify} className="w-full h-full object-cover" />
+              </div>
+              <h6 className="font-semibold text-2xl">Shopify Development</h6>
+            </div>
+            <p>
+              Really boy law country she unable her sister. Feet you off its like six. Among sex are leave now built
+              law. In built table in an rapid blush. Merits behind on afraid or warmly.
+            </p>
+            <CTA text="Read More" underline />
+          </div>
+          <div className="px-7 py-10 flex flex-col justify-between space-y-7 max-w-sm">
+            <div className="flex space-x-4">
+              <div className="w-7">
+                <Image src={Figma} className="w-full h-full object-cover" />
+              </div>
+              <h6 className="font-semibold text-2xl">Figma Web Design</h6>
+            </div>
+            <p>
+              Really boy law country she unable her sister. Feet you off its like six. Among sex are leave now built
+              law. In built table in an rapid blush. Merits behind on afraid or warmly.
+            </p>
+            <CTA text="Read More" underline />
+          </div>
+          <div className="px-7 py-10 flex flex-col justify-between space-y-7 max-w-sm">
+            <div className="flex space-x-4">
+              <div className="w-7">
+                <Image src={Php} className="w-full h-full object-cover" />
+              </div>
+              <h6 className="font-semibold text-2xl">Php Development</h6>
+            </div>
+            <p>
+              Really boy law country she unable her sister. Feet you off its like six. Among sex are leave now built
+              law. In built table in an rapid blush. Merits behind on afraid or warmly.
+            </p>
+            <CTA text="Read More" underline />
+          </div>
+        </div>
+
+        <CTA text="Learn More" btn />
+
+        <div className="absolute top-40 -right-44 rotate-140">
+          <Semicircle color="accent" />
         </div>
       </section>
 
