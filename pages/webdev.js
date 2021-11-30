@@ -7,6 +7,11 @@ import CTA from "../components/webdev/CTA";
 import Semicircle from "../components/webdev/icons/Semicircle";
 import HeroRight from "../assets/webdev/img/hero-right.jpg";
 import HeroLeft from "../assets/webdev/img/hero-left.jpg";
+import Chase from "../assets/webdev/img/logos/CHASE.jpg";
+import Asana from "../assets/webdev/img/logos/asana.jpg";
+import Google from "../assets/webdev/img/logos/Google.jpg";
+import BuzzFeed from "../assets/webdev/img/logos/BuzzFeed.jpg";
+import Walmart from "../assets/webdev/img/logos/Walmart.jpg";
 
 export default function WebDev() {
   return (
@@ -65,6 +70,25 @@ export default function WebDev() {
           <Image src={HeroRight} alt="" className="w-full h-full object-cover" />
         </div>
       </main>
+
+      <section className="pt-40 pb-52 w-4/5 mx-auto flex justify-between items-center">
+        <div className="w-32 h-full">
+          <Image src={Chase} alt="CHASE Logo" className="w-full h-full object-cover" />
+        </div>
+        <div className="w-32 h-full">
+          <Image src={Asana} alt="Asana Logo" className="w-full h-full object-cover" />
+        </div>
+        <div className="w-28 h-full">
+          <Image src={Google} alt="Google Logo" className="w-full h-full object-cover" />
+        </div>
+        <div className="w-32 h-full">
+          <Image src={BuzzFeed} alt="BuzzFeed Logo" className="w-full h-full object-cover" />
+        </div>
+        <div className="w-32 h-full">
+          <Image src={Walmart} alt="BuzzFeed Logo" className="w-full h-full object-cover" />
+        </div>
+      </section>
+
       <footer></footer>
     </>
   );
