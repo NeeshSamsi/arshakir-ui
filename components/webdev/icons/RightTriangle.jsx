@@ -8,6 +8,8 @@ const RightTriangle = ({ color }) => {
     case "dark-secondary":
       clr = "#514040";
       break;
+    default:
+      clr = "#514040";
   }
 
   return (
