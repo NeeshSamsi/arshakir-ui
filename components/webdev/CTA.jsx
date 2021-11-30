@@ -2,10 +2,7 @@ import RightTriangle from "./icons/RightTriangle";
 
 const BTN = ({ text, outline }) =>
   outline ? (
-    <a
-      href="/"
-      className="py-4 px-11 rounded-md text-web.dev-dark-secondary border border-web.dev-dark-secondary shadow-2xl"
-    >
+    <a href="/" className="py-4 px-11 rounded-md text-web.dev-dark-secondary border border-web.dev-dark-secondary">
       {text}
     </a>
   ) : (
