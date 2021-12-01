@@ -28,6 +28,7 @@ import SectionTitle from "../components/webdev/SectionTitle";
 import Star from "../components/webdev/icons/Star";
 import LeftArrow from "../components/webdev/icons/LeftArrow";
 import RightArrow from "../components/webdev/icons/RightArrow";
+import Check from "../components/webdev/icons/Check";
 
 export default function WebDev() {
   return (
@@ -310,6 +311,133 @@ export default function WebDev() {
                 <RightArrow />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="font-gilroy font-medium">
+        <SectionTitle title="Pricing Policy" subtitle="Our Pricing" />
+
+        <div className="py-20 px-44 flex justify-between">
+          <div className="p-14 flex flex-col items-center space-y-12">
+            <div className="flex flex-col justify-between items-center space-y-7">
+              <p className="text-3xl">For Starter</p>
+              <p className="font-semibold text-6xl">$1499</p>
+
+              <ul className="flex flex-col space-y-4">
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Feedback Categorization</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Features Prioritization</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Real-Time Collaboration</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Feedback Loop Notifications</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Essential Dev Tools Integrations</p>
+                </li>
+              </ul>
+            </div>
+            <CTA text="Request Demo" btn outline />
+          </div>
+          <div className="p-14 flex flex-col items-center space-y-12 bg-white shadow-2xl">
+            <div className="flex flex-col justify-between items-center space-y-7">
+              <p className="text-3xl">For Teams</p>
+              <p className="font-semibold text-6xl">$2999</p>
+
+              <ul className="flex flex-col space-y-4">
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Feedback Categorization</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Features Prioritization</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Real-Time Collaboration</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Feedback Loop Notifications</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Essential Dev Tools Integrations</p>
+                </li>
+              </ul>
+            </div>
+            <CTA text="Request Demo" btn />
+          </div>
+          <div className="p-14 flex flex-col items-center space-y-12">
+            <div className="flex flex-col justify-between items-center space-y-7">
+              <p className="text-3xl">For Company</p>
+              <p className="font-semibold text-6xl">Custom</p>
+
+              <ul className="flex flex-col space-y-4">
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Feedback Categorization</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Features Prioritization</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Real-Time Collaboration</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Feedback Loop Notifications</p>
+                </li>
+                <li className="flex items-center space-x-4">
+                  <div className="w-3 h-3">
+                    <Check />
+                  </div>
+                  <p>Essential Dev Tools Integrations</p>
+                </li>
+              </ul>
+            </div>
+            <CTA text="Request Demo" btn outline />
           </div>
         </div>
       </section>
