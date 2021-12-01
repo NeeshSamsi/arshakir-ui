@@ -10,6 +10,10 @@ import Squiggle from "../components/webdev/icons/Squiggle";
 // IMG
 import HeroRight from "../assets/webdev/img/hero-right.jpg";
 import HeroLeft from "../assets/webdev/img/hero-left.jpg";
+import Fashion from "../assets/webdev/img/fashion.jpg";
+import Furniture from "../assets/webdev/img/furniture.jpg";
+import HealthFitness from "../assets/webdev/img/health-fitness.jpg";
+import ITSolution from "../assets/webdev/img/it-solution.jpg";
 // Logo
 import Chase from "../assets/webdev/img/logos/CHASE.jpg";
 import Asana from "../assets/webdev/img/logos/asana.jpg";
@@ -21,6 +25,9 @@ import Shopify from "../assets/webdev/img/logos/shopify.jpg";
 import Figma from "../assets/webdev/img/logos/figma.jpg";
 import Php from "../assets/webdev/img/logos/php.jpg";
 import SectionTitle from "../components/webdev/SectionTitle";
+import Star from "../components/webdev/icons/Star";
+import LeftArrow from "../components/webdev/icons/LeftArrow";
+import RightArrow from "../components/webdev/icons/RightArrow";
 
 export default function WebDev() {
   return (
@@ -164,6 +171,138 @@ export default function WebDev() {
 
         <div className="absolute top-40 -right-44 rotate-140">
           <Semicircle color="accent" />
+        </div>
+      </section>
+
+      <section className="py-36 flex flex-col justify-between items-center space-y-20 font-gilroy font-medium">
+        <SectionTitle title="Our Portfolio" subtitle="Our Work" />
+        <div className="flex justify-between space-x-12">
+          <div className="flex flex-col justify-between space-y-16">
+            <div className="flex flex-col justify-between space-y-6">
+              <Image src={Fashion} alt="Fashion Landing Page Image" className="w-full h-full object-cover" />
+              <div className="flex justify-between items-center">
+                <h6 className="text-3xl">Fashion Landing Page</h6>
+                <CTA text="View Details" accent />
+              </div>
+            </div>
+            <div className="pb-14 flex flex-col justify-between space-y-6">
+              <Image src={Furniture} alt="Furniture Shop Image" className="w-full h-full object-cover" />
+              <div className="flex justify-between items-center">
+                <h6 className="text-3xl">Furniture Shop</h6>
+                <CTA text="View Details" accent />
+              </div>
+            </div>
+          </div>
+          <div className="pt-14 flex flex-col justify-between space-y-16">
+            <div className="flex flex-col justify-between space-y-6">
+              <Image src={HealthFitness} alt="Health & Fitness Image" className="w-full h-full object-cover" />
+              <div className="flex justify-between items-center">
+                <h6 className="text-3xl">Health & Fitness</h6>
+                <CTA text="View Details" accent />
+              </div>
+            </div>
+            <div className="flex flex-col justify-between space-y-6">
+              <Image src={ITSolution} alt="IT Solution Provider Image" className="w-full h-full object-cover" />
+              <div className="flex justify-between items-center">
+                <h6 className="text-3xl">IT Solution Provider</h6>
+                <CTA text="View Details" accent />
+              </div>
+            </div>
+          </div>
+        </div>
+        <CTA text="All Projects" btn />
+      </section>
+
+      <section>
+        <SectionTitle title="What Customers Say" subtitle="Testimonials" />
+
+        <div className="flex flex-col items-center space-y-14">
+          <div className="py-44 px-32 flex space-x-4">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
+              <p>Superb Work!</p>
+              <p className="font-normal text-web.dev-dark-testimonial-secondary">
+                “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
+                necessary.”
+              </p>
+              <div className="flex items-center space-x-2">
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+              </div>
+              <p className="">Sabo Masties</p>
+            </div>
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
+              <p>Superb Work!</p>
+              <p className="font-normal text-web.dev-dark-testimonial-secondary">
+                “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
+                necessary.”
+              </p>
+              <div className="flex items-center space-x-2">
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+              </div>
+              <p className="">Sabo Masties</p>
+            </div>
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
+              <p>Superb Work!</p>
+              <p className="font-normal text-web.dev-dark-testimonial-secondary">
+                “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
+                necessary.”
+              </p>
+              <div className="flex items-center space-x-2">
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+                <div className="w-5">
+                  <Star />
+                </div>
+              </div>
+              <p className="">Sabo Masties</p>
+            </div>
+          </div>
+
+          <div className="flex">
+            <div className="w-2 bg-white">
+              <LeftArrow />
+            </div>
+            <div className="w-2">
+              <RightArrow />
+            </div>
+          </div>
         </div>
       </section>
 
