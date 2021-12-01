@@ -7,6 +7,15 @@ import CTA from "../components/webdev/CTA";
 // SVG
 import Semicircle from "../components/webdev/icons/Semicircle";
 import Squiggle from "../components/webdev/icons/Squiggle";
+import Star from "../components/webdev/icons/Star";
+import LeftArrow from "../components/webdev/icons/LeftArrow";
+import RightArrow from "../components/webdev/icons/RightArrow";
+import Check from "../components/webdev/icons/Check";
+import Square from "../components/webdev/icons/Square";
+import Facebook from "../components/webdev/icons/Facebook";
+import LinkedIn from "../components/webdev/icons/LinkedIn";
+import Twitter from "../components/webdev/icons/Twitter";
+import RoundedRightArrow from "../components/webdev/icons/RoundedRightArrow";
 // IMG
 import HeroRight from "../assets/webdev/img/hero-right.jpg";
 import HeroLeft from "../assets/webdev/img/hero-left.jpg";
@@ -25,11 +34,6 @@ import Shopify from "../assets/webdev/img/logos/shopify.jpg";
 import Figma from "../assets/webdev/img/logos/figma.jpg";
 import Php from "../assets/webdev/img/logos/php.jpg";
 import SectionTitle from "../components/webdev/SectionTitle";
-import Star from "../components/webdev/icons/Star";
-import LeftArrow from "../components/webdev/icons/LeftArrow";
-import RightArrow from "../components/webdev/icons/RightArrow";
-import Check from "../components/webdev/icons/Check";
-import Square from "../components/webdev/icons/Square";
 
 export default function WebDev() {
   return (
@@ -459,7 +463,74 @@ export default function WebDev() {
         </div>
       </section>
 
-      <footer></footer>
+      <footer>
+        <div className="px-32 py-16 font-gilroy flex justify-between">
+          <div className="flex flex-col space-y-16">
+            <div className="flex flex-col space-y-8">
+              <h5 className=" font-bold text-3xl">Web.Dev</h5>
+              <p className="font-medium">You'll find your next home loan value you prefer.</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <a href="https://fb.me" target="_blank" className="w-7 h-7">
+                <Facebook />
+              </a>
+              <a href="https://twitter.com/" className="w-7 h-7">
+                <Twitter />
+              </a>
+              <a href="https://linkedin.com" className="w-7 h-7">
+                <LinkedIn />
+              </a>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-10">
+            <p className="font-semibold text-xl">Resources</p>
+
+            <div className="flex flex-col space-y-7">
+              <p>Our Agents</p>
+              <p>Member Stories</p>
+              <p>Video</p>
+              <p>Free Trial</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-10">
+            <p className="font-semibold text-xl">Company</p>
+
+            <div className="flex flex-col space-y-7">
+              <p>Partnerships</p>
+              <p>Terms of use</p>
+              <p>Privacy</p>
+              <p>Sitemap</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-10">
+            <p className="font-semibold text-xl">Get in touch</p>
+
+            <div className="flex space-x-8">
+              <form>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  className="p-2 placeholder-web.dev-dark-secondary placeholder-opacity-90 border border-web.dev-dark-secondary rounded-md"
+                />
+              </form>
+              <button type="submit">
+                <div className="w-6 h-6">
+                  <RoundedRightArrow />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <p className="py-12 font-gilroy font-semibold text-center">
+          Copyright 2021 &copy; Web.Dev All rights reserved.
+        </p>
+      </footer>
     </>
   );
 }
