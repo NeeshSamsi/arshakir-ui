@@ -29,6 +29,7 @@ import Star from "../components/webdev/icons/Star";
 import LeftArrow from "../components/webdev/icons/LeftArrow";
 import RightArrow from "../components/webdev/icons/RightArrow";
 import Check from "../components/webdev/icons/Check";
+import Square from "../components/webdev/icons/Square";
 
 export default function WebDev() {
   return (
@@ -318,7 +319,7 @@ export default function WebDev() {
       <section className="font-gilroy font-medium">
         <SectionTitle title="Pricing Policy" subtitle="Our Pricing" />
 
-        <div className="py-20 px-44 flex justify-between">
+        <div className="py-20 px-44 flex justify-between relative">
           <div className="p-14 flex flex-col items-center space-y-12">
             <div className="flex flex-col justify-between items-center space-y-7">
               <p className="text-3xl">For Starter</p>
@@ -438,6 +439,10 @@ export default function WebDev() {
               </ul>
             </div>
             <CTA text="Request Demo" btn outline />
+          </div>
+
+          <div className="w-24 h-24 rotate-30 absolute -left-2">
+            <Square />
           </div>
         </div>
       </section>
