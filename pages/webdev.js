@@ -447,6 +447,12 @@ export default function WebDev() {
         </div>
       </section>
 
+      <section className="w-2/5 mx-auto p-14 flex flex-col items-center space-y-12">
+        <SectionTitle title="Need a little more room to grow?" />
+
+        <CTA text="Contact Us" btn />
+      </section>
+
       <footer></footer>
     </>
   );
