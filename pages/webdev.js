@@ -216,8 +216,8 @@ export default function WebDev() {
       <section>
         <SectionTitle title="What Customers Say" subtitle="Testimonials" />
 
-        <div className="flex flex-col items-center space-y-14">
-          <div className="py-44 px-32 flex space-x-4">
+        <div className="py-44 px-32 flex flex-col items-center space-y-12">
+          <div className="flex space-x-4">
             <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
@@ -295,12 +295,16 @@ export default function WebDev() {
             </div>
           </div>
 
-          <div className="flex">
-            <div className="w-2 bg-white">
-              <LeftArrow />
+          <div className="w-32 p-2 flex justify-between bg-white rounded-full">
+            <div className="px-4 py-5 rounded-full">
+              <div className="w-5 h-2">
+                <LeftArrow />
+              </div>
             </div>
-            <div className="w-2">
-              <RightArrow />
+            <div className=" px-4 py-5 rounded-full bg-web.dev-dark-primary">
+              <div className="w-5 h-2">
+                <RightArrow />
+              </div>
             </div>
           </div>
         </div>
