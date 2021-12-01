@@ -217,8 +217,8 @@ export default function WebDev() {
         <SectionTitle title="What Customers Say" subtitle="Testimonials" />
 
         <div className="py-44 px-32 flex flex-col items-center space-y-12">
-          <div className="flex space-x-4">
-            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
+          <div className="flex space-x-4 relative">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-2xl">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
                 “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
@@ -243,7 +243,7 @@ export default function WebDev() {
               </div>
               <p className="">Sabo Masties</p>
             </div>
-            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-2xl">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
                 “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
@@ -268,7 +268,7 @@ export default function WebDev() {
               </div>
               <p className="">Sabo Masties</p>
             </div>
-            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary shadow-2xl">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-2xl z-10">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
                 “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
@@ -292,6 +292,10 @@ export default function WebDev() {
                 </div>
               </div>
               <p className="">Sabo Masties</p>
+            </div>
+
+            <div className="absolute bottom-0 -right-36 z-0">
+              <Squiggle color="dark-primary" />
             </div>
           </div>
 
