@@ -29,4 +29,9 @@
     font-weight: 600;
     src: url("../assets/fonts/gilroy/Gilroy-SemiBold.ttf");
   }
+  @font-face {
+    font-family: Gilroy;
+    font-weight: 700;
+    src: url("../assets/fonts/gilroy/Gilroy-Bold.ttf");
+  }
 }
