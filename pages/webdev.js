@@ -329,7 +329,7 @@ export default function WebDev() {
               <p className="text-3xl">For Starter</p>
               <p className="font-semibold text-6xl">$1499</p>
 
-              <ul className="flex flex-col space-y-4">
+              <ul className="flex flex-col space-y-4 text-web.dev-dark-secondary">
                 <li className="flex items-center space-x-4">
                   <div className="w-3 h-3">
                     <Check />
@@ -364,12 +364,13 @@ export default function WebDev() {
             </div>
             <CTA text="Request Demo" btn outline />
           </div>
+
           <div className="p-14 flex flex-col items-center space-y-12 bg-white shadow-2xl">
             <div className="flex flex-col justify-between items-center space-y-7">
               <p className="text-3xl">For Teams</p>
               <p className="font-semibold text-6xl">$2999</p>
 
-              <ul className="flex flex-col space-y-4">
+              <ul className="flex flex-col space-y-4 text-web.dev-dark-primary">
                 <li className="flex items-center space-x-4">
                   <div className="w-3 h-3">
                     <Check />
@@ -404,12 +405,13 @@ export default function WebDev() {
             </div>
             <CTA text="Request Demo" btn />
           </div>
+
           <div className="p-14 flex flex-col items-center space-y-12">
             <div className="flex flex-col justify-between items-center space-y-7">
               <p className="text-3xl">For Company</p>
               <p className="font-semibold text-6xl">Custom</p>
 
-              <ul className="flex flex-col space-y-4">
+              <ul className="flex flex-col space-y-4 text-web.dev-dark-secondary">
                 <li className="flex items-center space-x-4">
                   <div className="w-3 h-3">
                     <Check />
