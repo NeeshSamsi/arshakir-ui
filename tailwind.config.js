@@ -29,6 +29,7 @@ module.exports = {
       },
       rotate: {
         140: "140deg",
+        30: "30deg",
       },
     },
   },
