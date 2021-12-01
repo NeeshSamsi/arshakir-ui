@@ -447,10 +447,16 @@ export default function WebDev() {
         </div>
       </section>
 
-      <section className="w-2/5 mx-auto p-14 flex flex-col items-center space-y-12">
-        <SectionTitle title="Need a little more room to grow?" />
+      <section className=" relative">
+        <div className="w-2/5 mx-auto p-14 flex flex-col items-center space-y-12">
+          <SectionTitle title="Need a little more room to grow?" />
 
-        <CTA text="Contact Us" btn />
+          <CTA text="Contact Us" btn />
+        </div>
+
+        <div className="w-16 h-16 rotate-30 absolute bottom-0 -right-6">
+          <Square />
+        </div>
       </section>
 
       <footer></footer>
