@@ -8,6 +8,10 @@ module.exports = {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       gilroy: ["Gilroy", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"],
+      opensans: ["Open Sans", "sans-serif"],
+      poppins: ["Poppins", "sans-serif"],
+      volkhov: ["Volkhov", "serif"],
     },
     extend: {
       colors: {
