@@ -1,3 +1,8 @@
 export default function Jadoo() {
-  return <div></div>;
+  return (
+    <>
+      <nav></nav>
+      <main></main>
+    </>
+  );
 }
