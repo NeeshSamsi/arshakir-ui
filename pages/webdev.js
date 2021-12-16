@@ -119,7 +119,7 @@ export default function WebDev() {
         <SectionTitle title="Our Specialization" subtitle="What we Do?" />
 
         <div className="grid grid-cols-2 gap-10">
-          <div className="px-7 py-10 flex flex-col justify-between space-y-7 max-w-sm shadow-2xl">
+          <div className="px-7 py-10 flex flex-col justify-between space-y-7 max-w-sm shadow-[0px_100px_80px_rgba(49,_49,_49,_0.1)]">
             <div className="flex space-x-4">
               <div className="w-7">
                 <Image src={Webflow} className="w-full h-full object-cover" />
@@ -223,8 +223,8 @@ export default function WebDev() {
         <SectionTitle title="What Customers Say" subtitle="Testimonials" />
 
         <div className="py-44 px-32 flex flex-col items-center space-y-12">
-          <div className="flex space-x-4 relative">
-            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-2xl">
+          <div className="flex space-x-4 relative ">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-[0px_100px_80px_rgba(49,_49,_49,_0.1)]">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
                 “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
@@ -249,7 +249,7 @@ export default function WebDev() {
               </div>
               <p className="">Sabo Masties</p>
             </div>
-            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-2xl">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-[0px_100px_80px_rgba(49,_49,_49,_0.1)]">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
                 “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
@@ -274,7 +274,7 @@ export default function WebDev() {
               </div>
               <p className="">Sabo Masties</p>
             </div>
-            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-2xl z-10">
+            <div className="px-8 py-10 flex flex-col justify-between space-y-5 font-inter font-semibold text-web.dev-dark-testimonial-primary bg-white shadow-[0px_100px_80px_rgba(49,_49,_49,_0.1)] z-10">
               <p>Superb Work!</p>
               <p className="font-normal text-web.dev-dark-testimonial-secondary">
                 “Blessing welcomed ladyship she met humoured sir breeding her. Six curiosity day assurance bed
