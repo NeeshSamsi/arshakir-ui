@@ -6,7 +6,7 @@ const BTN = ({ text, outline }) =>
       {text}
     </a>
   ) : (
-    <a href="/" className="py-4 px-11 rounded-md bg-web.dev-accent text-white shadow-2xl">
+    <a href="/" className="py-4 px-11 rounded-md bg-web.dev-accent text-white shadow-cta">
       {text}
     </a>
   );
